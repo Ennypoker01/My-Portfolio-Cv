@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="portfolio.css">
   <title>My Portfolio</title>
+  
   <style>
-
-    :root {
+     :root {
       --bg: #f9f9f9;
       --text: #333;
       --card-bg: #fff;
@@ -77,7 +78,7 @@
       display: inline-block;
       margin-top: 15px;
       padding: 10px 20px;
-      background: #007bff;
+      background: #044e04;
       color: #fff;
       border-radius: 6px;
       text-decoration: none;
@@ -184,6 +185,18 @@
         right: 0;
         padding: 10px 0;
       }
+.about-text {
+  text-align: center;
+}
+
+.contact-form input{
+  align-self: center;
+}
+
+.contact-form textarea{
+  align-self: center;
+}
+
       nav a {
         margin: 10px 0;
         display: block;
@@ -199,7 +212,7 @@
       }
       .toggle-btn {
         top: 20px;
-        right: 60px;
+        right: 10px;
       }
       .about-container {
         flex-direction: column;
@@ -231,7 +244,7 @@
       <!-- 🔹 Replace profile.jpg with your picture file -->
       <img src="https://pbs.twimg.com/profile_images/1361257956252278787/Bp_7IHIc_400x400.jpg" alt="My Picture">
       <div class="about-text">
-        <p>Hello! I'm Eniola Ogunbadejo, a passionate web developer who loves turning ideas into reality through code. I specialize in creating modern, responsive, and user friendly websites. My goal is to build digital experiences that leave a lasting impact for my projects and clients.</p>
+        <p class="about-text">Hello! I'm Eniola Ogunbadejo, a passionate web developer who loves turning ideas into reality through code. I specialize in creating modern, responsive, and user friendly websites. My goal is to build digital experiences that leave a lasting impact for my projects and clients.</p>
         <a href="https://drive.google.com/file/d/1VYnzIQsY9jGd-9fM0vjAGdXR6J2j9iaq/view?usp=drive_link" class="cv-btn" download>📄 Download CV</a> <!-- 🔹 Replace cv.pdf with your resume file -->
       </div>
     </div>
@@ -302,13 +315,7 @@
   <!-- Contact Section -->
   <section id="contact">
     <h2>Contact Me</h2>
-    <div class="contact" style="text-align: center;">
-      <p>Email: eniolaogunbadejo90@gmail.com</p> <!-- 🔹 Replace with your email -->
-      <p>Phone: +234 906 037 4446</p> <!-- 🔹 Replace with your phone -->
-      <a href="https://github.com/Ennypoker01" target="_blank">GitHub</a> <!-- 🔹 Replace link -->
-      <a href="https://linkedin.com/" target="_blank">LinkedIn</a> <!-- 🔹 Replace link -->
-    </div>
-
+    
     <!-- Contact Form using Formspree -->
     <form id="contactForm" action="https://formspree.io/f/xeorgvzw" method="POST" class="contact-form">
       <!-- Name -->
@@ -335,6 +342,14 @@
       <!-- Submit -->
       <button type="submit">Send Message</button>
     </form>
+
+<div class="contact" style="text-align: center;">
+      <p>Email: eniolaogunbadejo90@gmail.com</p> <!-- 🔹 Replace with your email -->
+      <p>Phone: +234 906 037 4446</p> <!-- 🔹 Replace with your phone -->
+      <a href="https://github.com/Ennypoker01" target="_blank">GitHub</a> <!-- 🔹 Replace link -->
+      <a href="https://linkedin.com/" target="_blank">LinkedIn</a> <!-- 🔹 Replace link -->
+    </div>
+
 
   </section>
 
@@ -422,4 +437,5 @@
 
 
 </body>
+ 
 </html>
